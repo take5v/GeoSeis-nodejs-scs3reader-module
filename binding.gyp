@@ -7,7 +7,7 @@
 	      "seismogram.cc",
 	      "seismogramimpl.cc"
       ],
-      "cflags" : [ "-std=c++1", "-stdlib=libc++" ],
+      "cflags" : [ "-std=c++11", "-stdlib=libc++" ],
       'conditions': [
         [ 'OS!="win"', {
           "cflags+": [ "-std=c++11" ],
